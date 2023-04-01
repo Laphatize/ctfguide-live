@@ -58,9 +58,10 @@ export default function hackpsu2023() {
         <img width="30" src="https://hackpsu.org/assets/images/logo.svg"></img>
         <p style={{fontFamily: 'Poppins, sans-serif'}} className="text-xl text-center ml-auto">Connect to the terminal using the username <span className='text-yellow-500'> {terminalUsername} </span> and the password <span className='text-yellow-500'>{terminalPassword}</span> </p>
     </div>
-    <p style={{fontFamily: 'Poppins, sans-serif'}}><span className="text-green-500 text-xl mr-2">⦿</span>Connected to the terminal2.ctfguide.com</p>
- <iframe  className="border-none" style={{width: '100%', height: '400px', borderStyle: "none"}} src="https://terminal2.ctfguide.com/wetty"></iframe>
-    
+    <p style={{fontFamily: 'Poppins, sans-serif'}}><span className="text-green-500 text-xl mr-2">⦿</span>Connected to the terminal2.ctfguide.com -- Don't see anything? <span className="cursor-pointer text-blue-500 hover:underline" onClick={() => {window.open('https://terminal2.ctfguide.com/wetty')}}>Click here</span></p>
+
+        <iframe  className="border-none" style={{width: '100%', height: '400px', borderStyle: "none"}} src="https://terminal2.ctfguide.com/wetty"></iframe>
+            
             
     </div>
     

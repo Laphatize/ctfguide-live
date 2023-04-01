@@ -28,7 +28,7 @@ export default function Home() {
 
 
       <div style={{ fontFamily: 'Poppins, sans-serif' }} className="z-60 items-center text-center mx-auto gap-x-6  px-6 py-5 sm:px-3.5 sm:before:flex-1">
-      <p className="text-sm  text-center text-xl text-white" style={{ fontFamily: 'Poppins, sans-serif' }}>
+      <p className="text-sm  text-center text-lg text-white" style={{ fontFamily: 'Poppins, sans-serif' }}>
 
           Want to learn more about cybersecurity? Start learning on <a href="https://ctfguide.com" className='text-blue-500 font-semibold text-hover'>CTFGuide</a>.
 
@@ -67,7 +67,7 @@ export default function Home() {
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mx-auto text-center">
         <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
           <div className="flex-shrink-0">
-            <h1 className='bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-blue-400 cursor-pointer'>HackPSU 2023</h1>
+            <a href="../hackpsu2023" className='bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-blue-400 cursor-pointer'>HackPSU 2023</a>
             </div>
             </div>
 
